@@ -17,8 +17,8 @@ $6000 to $600F range. Register Select is the lowest address bus lines. Chip Sele
 
 > Why is creating specific, separate addresses important to achieve this function?
 
-Crucial for Memory Mapped I/O. Since the 6502 CPU shares a single address bus for Memory (RAM/ROM) and Input/Output devices, unique addresses are required to distinguish the VIA from other components
+Crucial for Memory Mapped I/O. Since the 6502 CPU shares a single address bus for nemory and I/O devices, they're required to distinguish the VIA from other components.
 
 > What is the value of the interface module (i.e. what does it _do_)?
 
-It latches, buffers and manages complex timing.
+It latches, buffers and manages the timing of the circuit.
